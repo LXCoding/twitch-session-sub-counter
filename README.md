@@ -5,7 +5,7 @@ Using [tmi.js](https://tmijs.com/) to connect to one or multiple Twitch channels
 
 ## Requirements
 
-- NodeJS
+- [NodeJS](https://nodejs.org/en/)
 
 ## Install from Source
 
