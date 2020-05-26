@@ -9,21 +9,15 @@
   "scripts": {
     "start": "node dist/subcounter.js",
     "serve": "yarn build && node dist/subcounter.js",
-    "build": "npx babel src --out-dir dist",
-    "eslint": "npx eslint src"
+    "build": "npx babel src --out-dir dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-stage-0": "^7.8.3",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0"
+    "@babel/preset-env": "^7.9.0"
   },
   "dependencies": {
     "colors": "^1.4.0",
-    "lodash": "^4.17.15",
-    "nedb": "^1.8.0",
     "tmi.js": "^1.5.0"
   },
   "babel": {
